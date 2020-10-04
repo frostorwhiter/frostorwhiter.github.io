@@ -8,17 +8,17 @@
 	width:100%;
 }
 .centre{
-	text-align: center; /* центруємо текст */
-	font-size: 40px; /* розмір тексту */
-	margin: 20px; /* відступи зліва справа зверху знизу */
+	text-align: center; 
+	font-size: 40px; 
+	margin: 20px; 
 }
 .box{
 	
 	width: 100%;
 	height: 100%;
-	border: solid; /* рамка Solid - це сплошна  */
-	position: relative; /* про  властвості позішина прочитай трошки бо я хуйово поясню */
-	background-color: #CFCDCA; /* ну і колір */
+	border: solid; 
+	position: relative; 
+	background-color: #CFCDCA; 
 }
 .box2{
 	width: 100%;
@@ -39,7 +39,7 @@
 	right: 0;
 	top: 0;
 	background-color: #0086FF;
-	position: absolute; /* заміть тут уже позішн абсолют */
+	position: absolute; 
 	border-bottom: solid;
 	border-left: solid;
 	width: 40%;
@@ -49,7 +49,7 @@
 
 .name_menu{
 	text-align: center;
-	font-weight: bold; /* жирний шрифт */
+	font-weight: bold;
 	
 
 }
@@ -58,7 +58,7 @@
 	top: 0;
 	background-color:#FF2D00;
 	position: absolute;
-	border-bottom: solid; /* можна вказати рамку лише з однієї сторони */
+	border-bottom: solid;
 	border-left: solid;
 	width: 40%;
 	height: 25%;
@@ -76,7 +76,7 @@
 .text{
 	padding: 4% 2%;
 }
-@media (min-width:992px){ /* працює при ширині екрану 992 і більше*/
+@media (min-width:992px){
 	.container{
 		width: 1140px;
 	}
@@ -84,8 +84,8 @@
 		margin-top: 20px;
 		height: 100%;
 		width: 33%;
-		display: inline-block; /* робить з блочного елементу строчний */
-		margin-right: -4px; /* фіксимо відступи */
+		display: inline-block; 
+		margin-right: -4px;
 	}
 	.box2{
 		margin-top: 20px;
@@ -114,7 +114,7 @@
 		padding-top: 10%;
 	}
 }
-@media (max-width:991px){ /* працює до ширини в 991 піксель */ 
+@media (max-width:991px){
 	.container{
 		width: 991px;
 	}
@@ -150,7 +150,7 @@
 	}
 
 }
-@media (max-width: 767px){ /* працює до ширини в 767 піксель включно */
+@media (max-width: 767px){
 	.container{
 		width: 540px;
 	}
