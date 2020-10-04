@@ -1,0 +1,184 @@
+* {
+	box-sizing: border-box;
+
+}
+
+.container{
+	height: 100%;
+	width:100%;
+}
+.centre{
+	text-align: center; /* центруємо текст */
+	font-size: 40px; /* розмір тексту */
+	margin: 20px; /* відступи зліва справа зверху знизу */
+}
+.box{
+	
+	width: 100%;
+	height: 100%;
+	border: solid; /* рамка Solid - це сплошна  */
+	position: relative; /* про  властвості позішина прочитай трошки бо я хуйово поясню */
+	background-color: #CFCDCA; /* ну і колір */
+}
+.box2{
+	width: 100%;
+	height: 100%;
+	border: solid;
+	position: relative;
+	background-color: #CFCDCA;
+}
+.box3{
+	width: 100%;
+	height: 100%;
+	border: solid;
+	position: relative;
+	background-color: #CFCDCA;
+}
+
+.mini-box{
+	right: 0;
+	top: 0;
+	background-color: #0086FF;
+	position: absolute; /* заміть тут уже позішн абсолют */
+	border-bottom: solid;
+	border-left: solid;
+	width: 40%;
+	height: 25%;
+
+}
+
+.name_menu{
+	text-align: center;
+	font-weight: bold; /* жирний шрифт */
+	
+
+}
+.mini-box2{
+	right: 0;
+	top: 0;
+	background-color:#FF2D00;
+	position: absolute;
+	border-bottom: solid; /* можна вказати рамку лише з однієї сторони */
+	border-left: solid;
+	width: 40%;
+	height: 25%;
+}
+.mini-box3{
+	right: 0;
+	top: 0;
+	background-color:#47FF00;
+	position: absolute;
+	border-bottom: solid;
+	border-left: solid;
+	width: 40%;
+	height: 25%;
+}
+.text{
+	padding: 4% 2%;
+}
+@media (min-width:992px){ /* працює при ширині екрану 992 і більше*/
+	.container{
+		width: 1140px;
+	}
+	.box{
+		margin-top: 20px;
+		height: 100%;
+		width: 33%;
+		display: inline-block; /* робить з блочного елементу строчний */
+		margin-right: -4px; /* фіксимо відступи */
+	}
+	.box2{
+		margin-top: 20px;
+		height: 100%;
+		width: 33%;
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 33%;
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.mini-box{
+		height: 20%;
+	}
+	.mini-box2{
+		height: 20%;
+	}
+	.mini-box3{
+		height: 20%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
+@media (max-width:991px){ /* працює до ширини в 991 піксель */ 
+	.container{
+		width: 991px;
+	}
+	.box{
+
+		width: 50%;
+		height:100%;
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.box2{
+		height: 100%;
+		width: 50%;
+		display: inline-block;
+		margin-right: -4px;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+	}
+	.mini-box{
+		height: 20%;
+	}
+	.mini-box2{
+		height: 20%;
+	}
+	.mini-box3{
+		height: 20%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+
+}
+@media (max-width: 767px){ /* працює до ширини в 767 піксель включно */
+	.container{
+		width: 540px;
+	}
+	.box{
+		width: 100%;
+		height:100%;
+	}
+	.box2{
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+	}
+	.box3{
+		margin-top: 20px;
+		height: 100%;
+		width: 100%;
+	}
+	.mini-box{
+		height: 20%;
+	}
+	.mini-box2{
+		height: 20%;
+	}
+	.mini-box3{
+		height: 20%;
+	}
+	.text{
+		padding-top: 10%;
+	}
+}
+	
