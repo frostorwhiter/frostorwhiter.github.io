@@ -18,7 +18,8 @@
 	height: 100%;
 	border: solid; 
 	position: relative; 
-	background-color: #CFCDCA; 
+	background-color: #CFCDCA;
+	margin: 20px;
 }
 .box2{
 	width: 100%;
@@ -26,6 +27,7 @@
 	border: solid;
 	position: relative;
 	background-color: #CFCDCA;
+	margin: 20px
 }
 .box3{
 	width: 100%;
@@ -33,6 +35,7 @@
 	border: solid;
 	position: relative;
 	background-color: #CFCDCA;
+	margin: 20px;
 }
 
 .mini-box{
