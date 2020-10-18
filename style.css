@@ -86,21 +86,22 @@
 	.box{
 		margin-top: 20px;
 		height: 100%;
-		width: 33%;
+		width: 30%;
 		display: inline-block; 
 		margin-right: -4px;
+		
 	}
 	.box2{
 		margin-top: 20px;
 		height: 100%;
-		width: 33%;
+		width: 30%;
 		display: inline-block;
 		margin-right: -4px;
 	}
 	.box3{
 		margin-top: 20px;
 		height: 100%;
-		width: 33%;
+		width: 30%;
 		display: inline-block;
 		margin-right: -4px;
 	}
