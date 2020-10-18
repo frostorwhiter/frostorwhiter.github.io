@@ -88,7 +88,7 @@
 		height: 100%;
 		width: 30%;
 		display: inline-block; 
-		margin-right: -4px;
+		margin: 15px;
 		
 	}
 	.box2{
@@ -96,14 +96,14 @@
 		height: 100%;
 		width: 30%;
 		display: inline-block;
-		margin-right: -4px;
+		margin: 15px;
 	}
 	.box3{
 		margin-top: 20px;
 		height: 100%;
 		width: 30%;
 		display: inline-block;
-		margin-right: -4px;
+		margin: 15px;
 	}
 	.mini-box{
 		height: 20%;
@@ -124,21 +124,21 @@
 	}
 	.box{
 
-		width: 50%;
+		width: 45%;
 		height:100%;
 		display: inline-block;
-		margin-right: -4px;
+		margin: 15px;
 	}
 	.box2{
 		height: 100%;
-		width: 50%;
+		width: 45%;
 		display: inline-block;
-		margin-right: -4px;
+		margin: 15px;
 	}
 	.box3{
-		margin-top: 20px;
+		margin: 20px;
 		height: 100%;
-		width: 100%;
+		width: 93%;
 	}
 	.mini-box{
 		height: 20%;
